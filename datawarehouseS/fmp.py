@@ -6,7 +6,7 @@ import os
 class FMP:
 
     def __init__(self) -> None:
-        self.api_key = 'c6b648e71a9debf6bb7dac776e6cb205'
+        self.api_key = str
         self.end_point = 'https://financialmodelingprep.com/api/'
         self.session = requests.Session()
 
