@@ -5,8 +5,8 @@ import logging
 import os
 class FMP:
 
-    def __init__(self) -> None:
-        self.api_key = str
+    def __init__(self, apikey) -> None:
+        self.api_key = apikey
         self.end_point = 'https://financialmodelingprep.com/api/'
         self.session = requests.Session()
 
